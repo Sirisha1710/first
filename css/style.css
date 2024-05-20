@@ -1,0 +1,30 @@
+.padding-box{
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vh;
+    margin: 40px;  
+    background-color: blueviolet;
+}
+.cd{
+    background-color: aqua;
+    width: 40vw;
+    height: 30vh;
+    padding: 20px 10px 20px 10px;
+    margin: 40px;
+}
+.cm{
+    background-color: plum;
+    width: 35vw;
+    height: 20vh;
+    padding: 10px 5px 10px 5px;
+    margin: 40px;
+
+}
+.si{
+    background-color: rgb(210, 230, 81);
+    width: 30vw;
+    height: 8vh;
+    padding: 8px 3px 8px 3px;
+    margin: 40px;
+
+}

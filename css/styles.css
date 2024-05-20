@@ -1,0 +1,32 @@
+
+.traffic-signals {
+    width: 100px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 1%;
+    
+  }
+  
+  .traffic-signals div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
