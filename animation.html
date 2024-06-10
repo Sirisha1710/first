@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes siri {
+            from{
+                background-color: aqua;
+                transform: scale(2,2);
+                border-radius: 20%;
+                transform: translate(20px,20px);
+                transform: rotate(180deg);
+            }
+            to{
+                background-color: rgb(221, 69, 107);
+                transform: scale(4,4);
+                border-radius: 90%;
+                transform: translate(40px,40px);
+                transform: rotate(360deg);
+            }
+            
+        }
+        .cd{
+           
+            height: 400px;
+            width: 150px;
+            animation-name: siri;
+            animation-duration: 3s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+  
+        }
+    </style>
+</head>
+<body>
+    <div class="cd">
+
+    </div>
+</body>
+</html>

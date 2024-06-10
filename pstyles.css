@@ -254,83 +254,157 @@ position: absolute;
 left: 400px;
 margin-top: -250px;
 }
-.body2{
-display: flex;
-flex-direction: row;
-gap: 5%;
-/* justify-content: center; */
-
-}
-.tester{
-position: fixed;
-top: 480%;
-
-}
-.author{
-position: fixed;
-top: 480%;
-} 
 .vw{
-width: 300px;
-height: 200px;
-background-image:  linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
-margin-left: 30px;
-/* margin-bottom: -100px; */
-padding: 40px 30px;
-text-align: center;
-border-radius: 10px;
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.vm{
+    /* border: 1px solid black; */
+    height: 350px;
+    width: 400px;
+    background-image: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+
 }
 .text13{
-text-align: center;
-font-size: 34px;
-font-family: sans-serif;
-color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: white;
 }
 .text14{
-text-align: center;
-font-size: 15px;
-font-family: sans-serif;
-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
 .text15{
-text-align: center;
-font-size: 15px;
-font-family: sans-serif;
-color: white;
-}
-
-.vm{
-width: 300px;
-height: 200px;
-background-image:  linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
-margin-left: 30px;
-margin-bottom: -100px;
-padding: 40px 30px;
-text-align: center;
-border-radius: 5px;
-
+    text-align: center;
+    margin-top: -20px;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: white;
 }
 .text16{
-text-align: center;
-font-size: 34px;
-font-family: sans-serif;
-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
 .text17{
-text-align: center;
-font-size: 15px;
-font-family: sans-serif;
-color: white;
-}
-.text13{
-text-align: center;
-font-size: 34px;
-font-family: sans-serif;
-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
 .text18{
-text-align: center;
-font-size: 15px;
-font-family: sans-serif;
-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
+.img8{
+    margin-left: -55px;
+}
+.img9{
+    margin-left: -55px;
+}
+.vd{
+    /* border: 1px solid black; */
+    height: 350px;
+    width: 400px;
+    background-image: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);;
+}
+.siri{
+     /* border: 1px solid black; */
+    height: 1100px; 
+    width: 1200px;
+    background-image: url(./footer-bg\ \(3\).png);
+    background-repeat: no-repeat;
+}
+
+.si{
+    border: 1px solid gray; 
+
+    height: 400px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-evenly;
+}
+.full{
+    border: 1px solid gray;
+
+    height: 30px;
+    width:200px;
+    margin-top: 40px;
+    color: gray;
+}
+.email{
+    border: 1px solid gray;
+    height: 30px;
+    width:200px;
+    margin-top: 40px;
+    color: #868383;
+
+}
+.your{
+    border: 1px solid black;
+    height: 150px;
+    width:400px;
+    color: gray;
+}
+.text19{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-left: 650px;
+    margin-top: -200px;
+}
+.text20{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 650px;
+    margin-top: -30px;
+}
+.text21{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 650px;
+   
+}
+.icon1{
+   height: 40px;
+   margin-left: 650px;
+   border: 1px solid white;
+   background-color: white;
+   border-radius: 100px;
+}
+.icon2{
+    height: 40px;
+    /* margin-left: 650px; */
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100px;
+ }
+ .icon3{
+    height: 40px;
+    /* margin-left: 650px; */
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100px;
+ }
+
+
